@@ -138,13 +138,14 @@ trim_trailing_whitespace = false
 
 - tsconfig.json
 
-```
-"compilerOptions": {
-  "baseUrl": "src"
-},
-"include": ["src"]
-```
+  ```
+  "compilerOptions": {
+    "baseUrl": "src"
+  },
+  "include": ["src"]
+  ```
 
-- 参考サイト様
-  - [VSCode + ESLint + Prettier + React + TypeScript （Fall, 2020）](https://zenn.dev/sprout2000/articles/9f20902d394aa2)
-  - [import する際に絶対パスで書きたい](https://qiita.com/10mi8o/items/326e1535451e57dbb12f)
+## 参考サイト様
+
+- [VSCode + ESLint + Prettier + React + TypeScript （Fall, 2020）](https://zenn.dev/sprout2000/articles/9f20902d394aa2)
+- [import する際に絶対パスで書きたい](https://qiita.com/10mi8o/items/326e1535451e57dbb12f)
