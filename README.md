@@ -86,7 +86,7 @@
   }
   ```
 - vscode の ESLint, Prettier 拡張機能をインストール
-- .vscode/settings.json を編集
+- .vscode/settings.json を編集（VSCode全体か、ワークスペースごとかは任意）
   ```
   {
     "editor.formatOnSave": true,    // <-- prettierで整形
@@ -144,6 +144,12 @@ trim_trailing_whitespace = false
   },
   "include": ["src"]
   ```
+
+## initialize.sh使い方
+- cloneする
+- プロジェクトを作成したディレクトリにinitialize.shをコピー
+- ```chmod 755 initialize.sh```
+- ```./initialize.sh```
 
 ## 参考サイト様
 
