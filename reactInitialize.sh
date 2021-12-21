@@ -1,7 +1,7 @@
-#!/bin/bash
+#!/bin/bash -e
 
 echo "--- react アプリケーション雛形の作成 ---"
-read -p "アプリ名: " APP_NAME
+read -p "アプリ名（英小文字・数字）: " APP_NAME
 npx create-react-app $APP_NAME --template typescript
 cd $APP_NAME
 
