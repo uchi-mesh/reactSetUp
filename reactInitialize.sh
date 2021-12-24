@@ -124,6 +124,10 @@ PACKAGE_JSON='
 '
 echo "$PACKAGE_JSON"
 
+echo "４．Chakra UIの導入方法"
+echo "npm i -S @chakra-ui/react @emotion/react@^11 @emotion/styled@^11 framer-motion@^4"
+echo "ChakraProviderをimportし、<App />を囲んでください。"
+
 git add .
 git commit -m "completed initialize.sh"
 
